@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CutAI — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.55; color: #111; }
+    h1 { font-size: 26px; margin-bottom: 4px; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    p, li { font-size: 15px; }
+    .effective { color: #666; font-size: 13px; margin-bottom: 28px; }
+    a { color: #0a66c2; }
+    @media (prefers-color-scheme: dark) { body { background: #0c0c0c; color: #e6e6e6; } a { color: #7ab7ff; } .effective { color: #999; } }
+  </style>
+</head>
+<body>
+  <h1>CutAI — Privacy Policy</h1>
+  <p class="effective">Effective date: 4 October 2026</p>
+
+  <p>
+    CutAI (the &ldquo;app&rdquo;) is an AI video editor. You record or import video takes, the app transcribes what was said and plans an edit &mdash; cutting silences, retakes and filler &mdash; and you export the finished video to your library. This policy explains what data the app collects, where it goes, and your rights over it.
+  </p>
+
+  <h2>1. Who we are</h2>
+  <p>The data controller is Adam Ayuda, an individual operator. Contact: <a href="mailto:cutai.app@gmail.com">cutai.app@gmail.com</a>.</p>
+
+  <h2>2. Data we collect</h2>
+  <p>
+    The app does not ask for your name, email address or phone number. You are signed in anonymously with a random identifier created on first launch. The data associated with that identifier is:
+  </p>
+  <ul>
+    <li><strong>Audio extracted from your videos.</strong> To plan an edit, the app extracts the audio track from each take you record or import. <strong>That audio is sent over an encrypted connection to OpenAI for speech-to-text, and the resulting transcript is sent to Anthropic to plan the edit.</strong> <strong>The video itself never leaves your device</strong> &mdash; all cutting and exporting happens on your phone. Whatever is within earshot in a take, including other people&rsquo;s voices, is part of the audio. We do not store the audio or the transcript on our own servers beyond what is needed to return the edit &mdash; see section 4.</li>
+    <li><strong>Your videos and projects.</strong> Takes, cuts and exported videos stay on your device and in your photo library. The app reads your library only for the videos you choose to import, and writes to it only when you export.</li>
+    <li><strong>Usage counter.</strong> How many edits your account has requested today, to enforce a fair-use limit.</li>
+    <li><strong>Subscription status</strong>, if you subscribe.</li>
+    <li><strong>Usage and diagnostic data.</strong> In-app events (screens viewed, buttons used, session length, errors), device model, OS and app version, tied to your anonymous identifier. The content of your videos and transcripts is never included in analytics events.</li>
+    <li><strong>Advertising attribution.</strong> If you grant App Tracking Transparency permission, the device advertising identifier is used to understand which ad brought you to the app. Declining has no effect on how the app works.</li>
+  </ul>
+  <p>The app does not collect your location, contacts, calendar or browsing history, and contains no advertising.</p>
+
+  <h2>3. How we use the data</h2>
+  <ul>
+    <li>To transcribe your takes and produce an edit plan for your video.</li>
+    <li>To enforce fair-use limits and prevent abuse.</li>
+    <li>To manage your subscription.</li>
+    <li>To understand how the app is used, measure advertising, and find and fix bugs.</li>
+  </ul>
+  <p>We do not sell personal data, and we do not use your audio, transcripts or videos to train AI models.</p>
+
+  <h2>4. Service providers</h2>
+  <ul>
+    <li><strong>OpenAI, L.L.C.</strong> &mdash; receives the audio extracted from your takes and returns a transcript (speech-to-text, the Whisper model). Processed under OpenAI&rsquo;s API terms; API inputs are not used to train OpenAI&rsquo;s models and are retained by OpenAI only for abuse monitoring.</li>
+    <li><strong>Anthropic, PBC</strong> &mdash; receives the transcript and returns an edit plan (which segments to keep, cut or reorder). Processed under Anthropic&rsquo;s API terms; API inputs are not used to train Anthropic&rsquo;s models.</li>
+    <li><strong>Google LLC</strong> &mdash; Firebase Anonymous Authentication, Cloud Firestore, Cloud Functions and Remote Config host your anonymous account and usage counter and run our server, which relays audio and transcripts to the two providers above. Our server keeps no copy of your audio, transcript or video. Server logs record technical details of each request and are kept for a limited period for debugging.</li>
+    <li><strong>Mixpanel, Inc.</strong> &mdash; product analytics, as described in section 2.</li>
+    <li><strong>RevenueCat, Inc.</strong> and <strong>Apple Inc.</strong> &mdash; manage and validate in-app subscriptions. Payment is handled by Apple through your App Store account; we never receive your payment-card details.</li>
+    <li><strong>Singular Labs, Inc.</strong> &mdash; advertising attribution, as described in section 2.</li>
+  </ul>
+
+  <h2>5. Legal basis</h2>
+  <p>
+    Where data-protection law applies, we process personal data on the basis of performance of a contract (providing the app to you), your consent (granting camera, microphone, photo-library or tracking access and starting an edit), and our legitimate interest in operating, securing and improving the service. You can withdraw any permission at any time in your device&rsquo;s Settings.
+  </p>
+
+  <h2>6. Retention</h2>
+  <p>
+    Audio and transcripts are not retained by us beyond producing the edit. Your videos stay on your device and in your library for as long as you keep them. Account and analytics data is kept for as long as needed for the purposes above.
+  </p>
+
+  <h2>7. Deleting your data and your rights</h2>
+  <p>
+    You can erase everything we hold for you from inside the app: <strong>Profile &rarr; Delete my data</strong>. This permanently deletes your usage counter and your anonymous account from our servers. Deleting the app alone does not do this. Videos in your photo library are yours and are not affected. A subscription is managed by Apple and must be cancelled in your App Store account settings.
+  </p>
+  <p>
+    Subject to applicable law you also have the right to access, correct, restrict or object to the processing of your personal data, and to data portability. Because your account is anonymous, include enough detail for us to locate your data. Email <a href="mailto:cutai.app@gmail.com">cutai.app@gmail.com</a>; we respond within 30 days.
+  </p>
+
+  <h2>8. Children</h2>
+  <p>CutAI is not directed to children and we do not knowingly collect personal data from children.</p>
+
+  <h2>9. Security</h2>
+  <p>
+    Data is transmitted over TLS. Your account data is stored in Google&rsquo;s managed Firebase infrastructure with access rules so that an account can only reach its own data. The AI service keys are held on our server, never in the app.
+  </p>
+
+  <h2>10. International transfers</h2>
+  <p>
+    Our processors (OpenAI, Anthropic, Google, Mixpanel, RevenueCat, Singular, Apple) may process data outside your country, including in the United States. Each operates under its own data-protection terms and standard contractual clauses.
+  </p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>We may update this policy. The current version is always at this URL, with the effective date at the top.</p>
+
+  <h2>12. Contact</h2>
+  <p>Questions or requests: <a href="mailto:cutai.app@gmail.com">cutai.app@gmail.com</a>.</p>
+</body>
+</html>
